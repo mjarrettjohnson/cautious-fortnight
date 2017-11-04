@@ -1,0 +1,27 @@
+body {
+  background: rgb(54, 54, 54);
+}
+
+.main {
+  background: #cfcfcf;
+  height: 82vh;
+  padding-top: 76px;
+  margin-top: 90px;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+textarea {
+  min-height: 12vh;
+}
+
+@media (max-height: 750px) {
+  .main {
+    height: 100vh;
+    margin-top: 0px;
+    padding-top: 78px;
+  }
+}
