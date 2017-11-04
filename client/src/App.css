@@ -4,9 +4,11 @@ body {
 
 .main {
   background: #cfcfcf;
-  height: 82vh;
-  padding-top: 76px;
+  height: 82%;
+  padding-top: 39px;
+  padding-bottom: 39px;
   margin-top: 90px;
+  border-radius: 10px;
 }
 
 .title {
@@ -20,8 +22,16 @@ textarea {
 
 @media (max-height: 750px) {
   .main {
-    height: 100vh;
+    height: 100%;
     margin-top: 0px;
     padding-top: 78px;
   }
+}
+
+h1 {
+  color: #4d4d4d;
+}
+
+label {
+  color: #4d4d4d;
 }

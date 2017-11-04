@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import EmailForm from './EmailForm';
 import Header from './Header';
-import Spinner from './Spinner';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 

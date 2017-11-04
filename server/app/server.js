@@ -25,6 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride());
 
 app.use('/static', express.static(path.join(__dirname, '../../client/build/static')));
+app.use('/', express.static(path.join(__dirname, '../../client/build/')));
 
 app.get('/', function(req, res) {
   res.sendFile('index.html', {
